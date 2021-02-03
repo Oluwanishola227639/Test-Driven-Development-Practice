@@ -20,7 +20,19 @@ class DateTest {
     @Test
     void testDateDisplay() {
 
-        date.displayDate();
+//        date.displayDate();
+//
+//
+//        date.setDay(51);
+//
+//        date.setMonth(5);
+//
+//        date.setYear(2019);
+//        System.out.println(date.displayDate());
+//
+//        assertEquals("0/0/0", date.displayDate());
+
+        date.toString();
 
 
         date.setDay(51);
@@ -28,9 +40,9 @@ class DateTest {
         date.setMonth(5);
 
         date.setYear(2019);
-        System.out.println(date.displayDate());
+        System.out.println(date.toString());
 
-        assertEquals("0/0/0", date.displayDate());
+        assertEquals("0/0/0", date.toString());
 
 
     }
