@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DateTest {
-    Date date = new Date(00, 00, 0000);
+class Date1Test {
+    Date1 date1 = new Date1(00, 00, 0000);
 
     @BeforeEach
     void setUp() {
@@ -32,17 +32,17 @@ class DateTest {
 //
 //        assertEquals("0/0/0", date.displayDate());
 
-        date.toString();
+        date1.toString();
 
 
-        date.setDay(51);
+        date1.setDay(51);
 
-        date.setMonth(5);
+        date1.setMonth(5);
 
-        date.setYear(2019);
-        System.out.println(date.toString());
+        date1.setYear(2019);
+        System.out.println(date1.toString());
 
-        assertEquals("0/0/0", date.toString());
+        assertEquals("0/0/0", date1.toString());
 
 
     }
